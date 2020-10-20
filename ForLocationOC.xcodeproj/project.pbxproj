@@ -7,30 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20DE6CB24BDF0E000CF0AC2 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DE6CA24BDF0E000CF0AC2 /* Model.m */; };
 		F215102124BCF0750040E7A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F215102024BCF0750040E7A5 /* AppDelegate.m */; };
 		F215102424BCF0750040E7A5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F215102324BCF0750040E7A5 /* SceneDelegate.m */; };
-		F215102724BCF0750040E7A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F215102624BCF0750040E7A5 /* ViewController.m */; };
+		F215102724BCF0750040E7A5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F215102624BCF0750040E7A5 /* MainViewController.m */; };
 		F215102A24BCF0750040E7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F215102824BCF0750040E7A5 /* Main.storyboard */; };
 		F215102D24BCF0750040E7A5 /* ForLocationOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F215102B24BCF0750040E7A5 /* ForLocationOC.xcdatamodeld */; };
 		F215102F24BCF0770040E7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F215102E24BCF0770040E7A5 /* Assets.xcassets */; };
 		F215103224BCF0770040E7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F215103024BCF0770040E7A5 /* LaunchScreen.storyboard */; };
 		F215103524BCF0770040E7A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F215103424BCF0770040E7A5 /* main.m */; };
+		F215103D24BCF0B10040E7A5 /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F215103C24BCF0B10040E7A5 /* ServiceManager.m */; };
+		F234403024BE14F0003AEBF6 /* CLPlacemark+CompleteAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = F234402F24BE14F0003AEBF6 /* CLPlacemark+CompleteAddress.m */; };
+		F23F9AA624BF3A9700D30439 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F23F9AA524BF3A9700D30439 /* CustomAnnotationView.m */; };
+		F23F9AA924BF3C7A00D30439 /* CustomCalloutNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23F9AA824BF3C7A00D30439 /* CustomCalloutNib.xib */; };
+		F23F9AAC24BF3D1600D30439 /* CustomCalloutViewNibControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F23F9AAB24BF3D1600D30439 /* CustomCalloutViewNibControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F20DE6C924BDED0200CF0AC2 /* ServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceManager.h; sourceTree = "<group>"; };
+		F20DE6CA24BDF0E000CF0AC2 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F20DE6CD24BDF15100CF0AC2 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		F215101C24BCF0750040E7A5 /* ForLocationOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForLocationOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F215101F24BCF0750040E7A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F215102024BCF0750040E7A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F215102224BCF0750040E7A5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		F215102324BCF0750040E7A5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		F215102524BCF0750040E7A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F215102624BCF0750040E7A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F215102524BCF0750040E7A5 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F215102624BCF0750040E7A5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F215102924BCF0750040E7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F215102C24BCF0750040E7A5 /* ForLocationOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ForLocationOC.xcdatamodel; sourceTree = "<group>"; };
 		F215102E24BCF0770040E7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F215103124BCF0770040E7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F215103324BCF0770040E7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F215103424BCF0770040E7A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F215103C24BCF0B10040E7A5 /* ServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceManager.m; sourceTree = "<group>"; };
+		F234402E24BE14F0003AEBF6 /* CLPlacemark+CompleteAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLPlacemark+CompleteAddress.h"; sourceTree = "<group>"; };
+		F234402F24BE14F0003AEBF6 /* CLPlacemark+CompleteAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLPlacemark+CompleteAddress.m"; sourceTree = "<group>"; };
+		F23F9AA524BF3A9700D30439 /* CustomAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		F23F9AA724BF3AAA00D30439 /* CustomAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		F23F9AA824BF3C7A00D30439 /* CustomCalloutNib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCalloutNib.xib; sourceTree = "<group>"; };
+		F23F9AAB24BF3D1600D30439 /* CustomCalloutViewNibControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutViewNibControl.m; sourceTree = "<group>"; };
+		F23F9AAE24BF3D4800D30439 /* CustomCalloutViewNibControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCalloutViewNibControl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F20DE6CC24BDF0E300CF0AC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F20DE6CD24BDF15100CF0AC2 /* Model.h */,
+				F20DE6CA24BDF0E000CF0AC2 /* Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F215101324BCF0740040E7A5 = {
 			isa = PBXGroup;
 			children = (
@@ -63,20 +89,70 @@
 		F215101E24BCF0750040E7A5 /* ForLocationOC */ = {
 			isa = PBXGroup;
 			children = (
+				F234402D24BE14CA003AEBF6 /* Extentions */,
+				F20DE6CC24BDF0E300CF0AC2 /* Model */,
+				F215104124BCF0C50040E7A5 /* View */,
+				F215103F24BCF0BA0040E7A5 /* Controller */,
+				F215103B24BCF07B0040E7A5 /* Service */,
 				F215101F24BCF0750040E7A5 /* AppDelegate.h */,
 				F215102024BCF0750040E7A5 /* AppDelegate.m */,
 				F215102224BCF0750040E7A5 /* SceneDelegate.h */,
 				F215102324BCF0750040E7A5 /* SceneDelegate.m */,
-				F215102524BCF0750040E7A5 /* ViewController.h */,
-				F215102624BCF0750040E7A5 /* ViewController.m */,
-				F215102824BCF0750040E7A5 /* Main.storyboard */,
 				F215102E24BCF0770040E7A5 /* Assets.xcassets */,
-				F215103024BCF0770040E7A5 /* LaunchScreen.storyboard */,
 				F215103324BCF0770040E7A5 /* Info.plist */,
 				F215103424BCF0770040E7A5 /* main.m */,
 				F215102B24BCF0750040E7A5 /* ForLocationOC.xcdatamodeld */,
 			);
 			path = ForLocationOC;
+			sourceTree = "<group>";
+		};
+		F215103B24BCF07B0040E7A5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F20DE6C924BDED0200CF0AC2 /* ServiceManager.h */,
+				F215103C24BCF0B10040E7A5 /* ServiceManager.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F215103F24BCF0BA0040E7A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F215102524BCF0750040E7A5 /* MainViewController.h */,
+				F215102624BCF0750040E7A5 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F215104124BCF0C50040E7A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F23F9AAA24BF3C7F00D30439 /* Nib */,
+				F215102824BCF0750040E7A5 /* Main.storyboard */,
+				F215103024BCF0770040E7A5 /* LaunchScreen.storyboard */,
+				F23F9AA724BF3AAA00D30439 /* CustomAnnotationView.h */,
+				F23F9AA524BF3A9700D30439 /* CustomAnnotationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F234402D24BE14CA003AEBF6 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				F234402E24BE14F0003AEBF6 /* CLPlacemark+CompleteAddress.h */,
+				F234402F24BE14F0003AEBF6 /* CLPlacemark+CompleteAddress.m */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		F23F9AAA24BF3C7F00D30439 /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				F23F9AA824BF3C7A00D30439 /* CustomCalloutNib.xib */,
+				F23F9AAE24BF3D4800D30439 /* CustomCalloutViewNibControl.h */,
+				F23F9AAB24BF3D1600D30439 /* CustomCalloutViewNibControl.m */,
+			);
+			path = Nib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +186,7 @@
 				TargetAttributes = {
 					F215101B24BCF0750040E7A5 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -137,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F215103224BCF0770040E7A5 /* LaunchScreen.storyboard in Resources */,
+				F23F9AA924BF3C7A00D30439 /* CustomCalloutNib.xib in Resources */,
 				F215102F24BCF0770040E7A5 /* Assets.xcassets in Resources */,
 				F215102A24BCF0750040E7A5 /* Main.storyboard in Resources */,
 			);
@@ -149,10 +227,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23F9AA624BF3A9700D30439 /* CustomAnnotationView.m in Sources */,
 				F215103524BCF0770040E7A5 /* main.m in Sources */,
+				F234403024BE14F0003AEBF6 /* CLPlacemark+CompleteAddress.m in Sources */,
 				F215102D24BCF0750040E7A5 /* ForLocationOC.xcdatamodeld in Sources */,
-				F215102724BCF0750040E7A5 /* ViewController.m in Sources */,
+				F215102724BCF0750040E7A5 /* MainViewController.m in Sources */,
+				F215103D24BCF0B10040E7A5 /* ServiceManager.m in Sources */,
+				F20DE6CB24BDF0E000CF0AC2 /* Model.m in Sources */,
 				F215102124BCF0750040E7A5 /* AppDelegate.m in Sources */,
+				F23F9AAC24BF3D1600D30439 /* CustomCalloutViewNibControl.m in Sources */,
 				F215102424BCF0750040E7A5 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GVZPRCFHJ;
 				INFOPLIST_FILE = ForLocationOC/Info.plist;
@@ -302,6 +386,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "John-Li.ForLocationOC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ForLocationOC/View/ForLocationOC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -310,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GVZPRCFHJ;
 				INFOPLIST_FILE = ForLocationOC/Info.plist;
@@ -319,6 +407,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "John-Li.ForLocationOC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ForLocationOC/View/ForLocationOC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
